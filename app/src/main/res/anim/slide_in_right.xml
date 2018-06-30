@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--không bị dựt khi chạy: shareInterpolator-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false"
+    >
+    <!--cho thực hiện 2s đi từ bên trái qua phải-->
+    <translate android:duration="2000"
+        android:fromXDelta="-100%"
+        android:toXDelta="0%"/>
+    <!--cho hiện ra trong 2s bắt đầu hiện ra từ 0.0 đến 1.0-->
+    <alpha android:duration="2000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"/>
+
+</set>
